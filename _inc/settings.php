@@ -41,7 +41,7 @@ add_action('admin_init', 'sharespring_settings_init');
  * @return void
  */
 function sharespring_defaults_render() {
-	$options = get_option('sharespring_settings');
+	$options = (array) get_option('sharespring_settings');
 	$value = array_key_exists('sharespring_defaults', $options) ? $options['sharespring_defaults'] : '';
 	?>
 

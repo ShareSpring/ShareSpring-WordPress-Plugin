@@ -38,7 +38,7 @@ function sharespring_sanitize($val) {
  * @return array Defaults with format: key => value
  */
 function sharespring_get_defaults() {
-	$options = get_option('sharespring_settings');
+	$options = (array) get_option('sharespring_settings');
 	$value = array_key_exists('sharespring_defaults', $options) ? $options['sharespring_defaults'] : '';
 
 	// Find values that match the correct format
