@@ -1,6 +1,6 @@
 === ShareSpring ===
 Contributors: sharespring
-Tags: aggregate, aggregator, analytics, embed, facebook, feed, gallery, google, googleplus, hash, hashtag, hub, image, instagram, media, pics, pictures, plus, rss, share, sharespring, sidebar, social, spring, tag, twitter, widget, youtube
+Tags: aggregate, aggregator, autoblog, autoblogger, embed, embed social media, embed social media feeds, facebook, facebook posts, facebook sidebar, facebook widget, feed, feed aggregator, gallery, google, google plus, google widget, googleplus, hash, hash tag, hash tag aggregator, hash tag widget, hashtag, hashtag aggregator, hashtag campaigns, hashtag widget, hashtags, hub, image, instagram, instagram widget, media, pics, pictures, plugin, plus, publish facebook, rss, rss widget, share, sharespring, sidebar, social, social feed aggregator, social hub, social magazine, social media, social media aggregation, social media aggregator, social media analytics, social media display, social media embed, social media feed, social media hub, social media magazine, social media wall, social media widget, social networks, social plugins, social sidebar, social wall, social widget, socialize, spring, tag, twitter, twitter posts, twitter sidebar, twitter widget, widget, youtube, youtube widget
 Requires at least: 3.7
 Tested up to: 4.6
 Stable tag: 1.0.0

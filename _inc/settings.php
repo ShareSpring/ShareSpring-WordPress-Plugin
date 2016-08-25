@@ -1,6 +1,26 @@
 <?php
 
 /**
+ * Add Dashboard & Settings links on the Plugin index page
+ *
+ * @param  array $actions      Existing links
+ * @param  string $plugin_file The plugin file being processed
+ * @return array               Links with Dashboard & Settings prepended
+ */
+function sharespring_plugin_action_links($actions, $plugin_file) {
+	// Skip plugins that aren't ours
+	if ($plugin_file !== 'sharespring/sharespring.php') {
+		return $actions;
+	}
+
+	return array_merge(array(
+		'<a href="https://sharespring.com/dashboard" target="_blank">' . __('Dashboard', 'sharespring') . '</a>',
+		'<a href="' . admin_url('options-general.php?page=sharespring') . '">' . __('Settings', 'sharespring') . '</a>'
+	), $actions);
+}
+add_filter('plugin_action_links', 'sharespring_plugin_action_links', null, 2);
+
+/**
  * Add admin menu link to Settings > ShareSpring
  *
  * @return void
@@ -41,7 +61,7 @@ add_action('admin_init', 'sharespring_settings_init');
  * @return void
  */
 function sharespring_defaults_render() {
-	$options = get_option('sharespring_settings');
+	$options = (array) get_option('sharespring_settings');
 	$value = array_key_exists('sharespring_defaults', $options) ? $options['sharespring_defaults'] : '';
 	?>
 
