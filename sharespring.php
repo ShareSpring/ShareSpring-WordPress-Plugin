@@ -3,7 +3,7 @@
 * Plugin Name: ShareSpring
 * Plugin URI: https://github.com/ShareSpring/ShareSpring-WordPress-Plugin
 * Description: Add ShareSpring to your WordPress site with a shortcode or widget. You'll need an active account at https://sharespring.com/ to use this plugin.
-* Version: 1.0.0
+* Version: 1.0.2
 * Author: ShareSpring, Inc.
 * Author URI: https://sharespring.com/
 * Text Domain: sharespring
