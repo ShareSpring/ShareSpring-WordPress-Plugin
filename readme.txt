@@ -3,7 +3,7 @@ Contributors: sharespring
 Tags: aggregate, aggregator, autoblog, autoblogger, embed, embed social media, embed social media feeds, facebook, facebook posts, facebook sidebar, facebook widget, feed, feed aggregator, gallery, google, google plus, google widget, googleplus, hash, hash tag, hash tag aggregator, hash tag widget, hashtag, hashtag aggregator, hashtag campaigns, hashtag widget, hashtags, hub, image, instagram, instagram widget, media, pics, pictures, plugin, plus, publish facebook, rss, rss widget, share, sharespring, sidebar, social, social feed aggregator, social hub, social magazine, social media, social media aggregation, social media aggregator, social media analytics, social media display, social media embed, social media feed, social media hub, social media magazine, social media wall, social media widget, social networks, social plugins, social sidebar, social wall, social widget, socialize, spring, tag, twitter, twitter posts, twitter sidebar, twitter widget, widget, youtube, youtube widget
 Requires at least: 3.7
 Tested up to: 4.6
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,9 @@ Make sure you have an active account at sharespring.com. Copy and paste the embe
 2. When a post is clicked, a modal window opens to show the full caption and sharing tools.
 
 == Changelog ==
+
+= 1.0.4 =
+* Fix sanitization for hex color codes
 
 = 1.0.3 =
 * Fix sanitization for hex color codes

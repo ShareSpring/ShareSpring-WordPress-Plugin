@@ -42,7 +42,7 @@ function sharespring_get_defaults() {
 	$value = array_key_exists('sharespring_defaults', $options) ? $options['sharespring_defaults'] : '';
 
 	// Find values that match the correct format
-	preg_match_all('/[\w-]+="[\w-]+"/', $value, $matches);
+	preg_match_all('/[\w-]+="[\w#-]+"/', $value, $matches);
 	$matches = $matches[0];
 
 	$defaults = array();
