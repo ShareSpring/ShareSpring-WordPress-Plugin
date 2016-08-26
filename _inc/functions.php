@@ -11,7 +11,7 @@ function sharespring_sanitize_str($val) {
 	$sanitized = strtolower(trim(str_replace(array(' ', 'data-', 'href=', 'class=', '[sharespring', ']'), '', $val)));
 
 	// Find values that match the correct format
-	preg_match_all('/[\w-]+="[\w-]+"/', $sanitized, $matches);
+	preg_match_all('/[\w-]+="[\w#-]+"/', $sanitized, $matches);
 	$matches = $matches[0];
 
 	// Set input to the sanitized format
